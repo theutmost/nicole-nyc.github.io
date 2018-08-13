@@ -29,10 +29,11 @@ h2 {
   font-weight: 700; }
 
 h3 {
-  font-size: 30px;
-  line-height: 1.4;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700; }
+  font-size: 24px;
+  line-height: 1.2;
+  font-family: "roboto", sans-serif;
+    opacity: 80%
+}
 
 h4 {
   font-size: 24px;
@@ -42,8 +43,8 @@ h4 {
 
 h5 {
   font-size: 18px;
-  line-height: 1.55;
-  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  font-family: "roboto", sans-serif;
   font-weight: 700; }
 
 .logo {
@@ -108,7 +109,9 @@ h5 {
 
 .resume-box .resume-date {
   font-size: 14px;
-  line-height: 20px; }
+  line-height: 18px;
+    color: #555555;
+}
 
 .legend {
   font-size: 14px;
