@@ -130,7 +130,7 @@ body {
   border-radius: 100%;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: 0;  
   z-index: 1;
   margin: auto;
   opacity: 0;
@@ -140,17 +140,20 @@ body {
 
 .header-avatar img {
   width: 100%;
-  height: 100%; }
+  height: 100%; 
+ }
 
 .point:after {
   content: '.'; }
 
 .header-links {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle; 
+}
 
 .header-links ul {
-  padding-left: 0; }
+  padding-left: 0; 
+}
 
 .header-links ul li {
   list-style: none;
