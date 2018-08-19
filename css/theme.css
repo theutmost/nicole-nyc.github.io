@@ -47,7 +47,6 @@ body {
   outline: none !important; }
 
 /* Loader */
-/* Loader */
 #page-preloader {
   position: fixed;
   z-index: 100500;
@@ -111,12 +110,17 @@ body {
 
 .header.active .logo {
   position: relative;
-  padding-left: 50px; 
+    padding: 10px;
  }
 
 .header.active .header-avatar {
   opacity: 1;
-  visibility: visible; }
+  visibility: visible; 
+}
+
+.header.active .point {
+    margin-left:12%;
+}
 
 .logo {
   position: relative;
@@ -145,6 +149,7 @@ body {
   width: 100%;
   height: 100%; 
  }
+
 
 .point:after {
   content: '.'; }
