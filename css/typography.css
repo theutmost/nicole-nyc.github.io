@@ -65,7 +65,8 @@ h5 {
   line-height: 20px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .about-me-info .span-title + span {
   font-size: 14px;

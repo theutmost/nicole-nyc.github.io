@@ -63,16 +63,16 @@ body {
    margin: 0;             
    top: 45%;                         
    transform: translate(0, -50%);
-   left: 18%;                         
+   left: 10%;                         
    transform: translate(0, -50%);
 }
 
 .line {
     display: inline-block;
     width: 20px;
-    height: 20px;
+    height: 14px;
     border-radius: 15px;
-    background-color: #f953c6;
+    background-color: #30E8BF;
 }
 
 .load-2 .line:nth-last-child(1) {animation: loadingB 1.5s 1s infinite;}
@@ -296,13 +296,13 @@ body {
   height: 100%; }
 
 .about-me {
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 .about-title {
   max-width: 600px; }
 
-.opacity-box {
-   max-width: 640px; 
+.about-me .opacity-box {
+   max-width: 570px; 
     opacity: 0.8; }
 
 .about-me-info {
@@ -556,6 +556,10 @@ margin-bottom: 40px;}
 
 .margin-box.margin-p p:last-child {
   margin-bottom: 0; }
+
+.margin-box .opacity-box {
+   max-width: 750px; 
+    opacity: 0.8; }
 
 .img-box img {
   max-width: 100%;
