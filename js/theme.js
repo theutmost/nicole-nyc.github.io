@@ -150,9 +150,9 @@ $(document).ready(function () {
 
 
     //init gradient
-    if($('div').is('.first-screen') || $('div').is('.mob-menu-wrapper')) {
-        drawGradient();
-    }
+    //if($('div').is('.first-screen') || $('div').is('.mob-menu-wrapper')) {
+    //    drawGradient();
+    //}
 
     //open google map in new window
     $('.map-link').on('click', function (event) {
