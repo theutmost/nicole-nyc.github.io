@@ -1,5 +1,6 @@
 $default-font: 'Roboto', sans-serif;
 $second-font: 'Montserrat', sans-serif;
+$third-font: 'Bree Serif', serif;
 
 body {
   font-family: $default-font;
@@ -17,8 +18,7 @@ h1 {
 h2 {
   font-size: 36px;
   line-height: 1.25;
-  font-family: $second-font;
-  font-weight: 700;
+  font-family: $default-font;
 }
 
 h3 {
@@ -41,8 +41,6 @@ h5 {
   font-family: $second-font;
   font-weight: 700;
 }
-
-
 
 .logo {
   font-size: 18px;
