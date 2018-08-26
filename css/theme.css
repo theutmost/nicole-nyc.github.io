@@ -118,9 +118,6 @@ body {
   visibility: visible; 
 }
 
-.header.active .point {
-    margin-left:12%;
-}
 
 .logo {
   position: relative;
@@ -414,7 +411,7 @@ body {
   content: '';
   position: absolute;
   top: 0;
-  right: 0;
+  right: 05;
   width: 30px;
   height: 100%;
   background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 93%, white 100%);
@@ -566,8 +563,8 @@ margin-bottom: 40px;}
   margin-bottom: 15px; }
 
 .legend {
-  text-align: right;
-  opacity: 0.4; }
+  text-align: left;
+  opacity: 0.3; }
 
 .content table {
   min-width: 870px;
