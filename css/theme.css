@@ -20,14 +20,16 @@
 
 /* global styles */
 a {
-  color: inherit;
+  display: inline-block;
+    color: inherit;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
 
 a:hover,
 a:active,
 a:focus {
-  color: inherit;
+  display: inline-block;
+    color: inherit;
   outline: none !important;
   text-decoration: none; }
 
@@ -296,7 +298,8 @@ body {
   margin-bottom: 20px; }
 
 .about-title {
-  max-width: 600px; }
+  max-width: 600px; 
+margin-bottom: 20px;}
 
 .about-me .opacity-box {
    max-width: 570px; 
@@ -545,7 +548,8 @@ margin-top: 10px;
 margin-bottom: 40px;}
 
 .margin-box {
-    margin-bottom: 30px; }
+    margin-bottom: 30px; 
+}
 
 .margin-box.margin-p p {
   margin-bottom: 15px; }
@@ -704,6 +708,7 @@ margin-bottom: 40px;}
 .form-wrapper .form-group label {
   margin-bottom: 15px; }
 
+
 .form-wrapper .form-group.warning .site-input, .form-wrapper .form-group.error .site-input {
   border-left: none;
   border-right: none;
@@ -764,7 +769,7 @@ textarea.site-input:hover, textarea.site-input:focus {
 /* contact */
 /* footer */
 .footer {
-height: 160px;    
+height: 100px;    
   background-color: white; 
   padding: 30px 0; }
 
