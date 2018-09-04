@@ -651,13 +651,16 @@ margin-bottom: 40px;}
   opacity: 0.8; }
 
 .sidebar-wrapper {
-  position: static; }
+  position: static; 
+}
 
 .single-project-row {
-  position: relative; }
+  position: relative; 
+}
 
 .sidebar-form {
-  width: 270px; }
+  width: 270px;
+}
 
 .sidebar-form.fixed-sidebar {
   position: fixed;
@@ -669,6 +672,12 @@ margin-bottom: 40px;}
   top: initial;
   bottom: 0;
   right: 15px; }
+
+.sidebar-2 {
+    border-left: 4px solid #e2e2e2;
+    padding: 0 0 0 8px; 
+    margin-bottom: 16px;
+}
 
 .mCSB_horizontal.mCSB_inside > .mCSB_container {
   margin-bottom: 25px; }
