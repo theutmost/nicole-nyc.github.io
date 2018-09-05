@@ -626,7 +626,8 @@ margin-bottom: 40px;}
 
 .project-info-line {
   font-size: 0;
-  margin-bottom: 30px; }
+  margin-top: 100px;
+  margin-bottom: 10px; }
 
 .project-info-line .info-line {
   display: inline-block;
@@ -692,7 +693,7 @@ margin-bottom: 40px;}
 
 .sidebar-2 {
     border-left: 1px solid #8c8c8c;
-    color: #024fbb;
+    color: #5581be;
     padding: 0 0 0 8px; 
     margin-bottom: 16px;
 }
