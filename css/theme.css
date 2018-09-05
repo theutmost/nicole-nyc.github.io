@@ -442,6 +442,8 @@ margin-bottom: 20px;}
 .projects-filter ul li:hover {
   text-decoration: underline; }
 
+
+    
 .project {
   display: block;
   margin-bottom: 30px;
@@ -617,7 +619,8 @@ margin-bottom: 40px;}
   padding-left: 22px; }
 
 .content blockquote {
-  padding: 15px 0 15px 35px; }
+  padding: 15px 0 15px 35px; 
+margin-top: 40px;}
 
 .content blockquote span {
   display: block;
@@ -693,7 +696,7 @@ margin-bottom: 40px;}
 
 .sidebar-2 {
     border-left: 1px solid #8c8c8c;
-    color: #5581be;
+    color: #777;
     padding: 0 0 0 8px; 
     margin-bottom: 16px;
 }
