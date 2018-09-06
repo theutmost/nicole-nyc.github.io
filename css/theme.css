@@ -56,6 +56,10 @@ body {
 :focus {
   outline: none !important; }
 
+img {
+    pointer-events: none;
+}
+
 /* Loader */
 #page-preloader {
   position: fixed;
@@ -699,11 +703,12 @@ margin-top: 40px;}
     color: #777;
     padding: 0 0 0 8px; 
     margin-bottom: 16px;
+    font-size: 85%;
 }
 
 .sidebar-2 a:hover {
     text-decoration: underline;
-    
+        
 }
 
 .mCSB_horizontal.mCSB_inside > .mCSB_container {
@@ -812,6 +817,12 @@ textarea.site-input:hover, textarea.site-input:focus {
 
 .form-wrapper .submit-holder {
   text-align: right; }
+
+.contact-text {
+    text-decoration: bold;
+    font-size: 115%;
+}
+
 
 /* contact */
 /* footer */
