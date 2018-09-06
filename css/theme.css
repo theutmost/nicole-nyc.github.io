@@ -588,11 +588,12 @@ margin-bottom: 40px;}
 
 .img-box img {
   max-width: 100%;
+    margin-top: 10px;
   margin-bottom: 10px; }
 
 .img-box-2 img {
   width: 80%;
-
+margin-top: 10px;
   margin-bottom: 10px; }
 
 .legend {
