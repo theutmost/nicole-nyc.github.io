@@ -588,7 +588,7 @@ margin-bottom: 40px;}
 
 .img-box img {
   max-width: 100%;
-    margin-top: 10px;
+    margin-top: 40px;
   margin-bottom: 10px; }
 
 .img-box-2 img {
@@ -712,7 +712,16 @@ margin-top: 40px;}
         
 }
 
+.opacity-box a:hover {
+    text-decoration: underline;
+        
+}
+
 .col-6 {
+    padding: 5px 5px 5px 5px; 
+}
+
+.col-3 {
     padding: 5px 5px 5px 5px; 
 }
 
