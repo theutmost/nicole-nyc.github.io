@@ -41,6 +41,11 @@ a:focus {
         visibility: hidden; 
 }
 
+#my-img:hover {
+    content: url('http://www.nayoung.design/media/projects/nyc.gif');
+    
+}
+
 ul, ol, h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
 
@@ -481,7 +486,7 @@ margin-bottom: 20px;}
 
 .project .project-name {
     display:inline-block;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease; }
 
@@ -731,7 +736,7 @@ margin-top: 40px;}
 }
 
 .col-6 {
-    padding: 5px 5px 5px 5px; 
+    padding: 2px 2px 2px 2px; 
 }
 
 .col-3 {
