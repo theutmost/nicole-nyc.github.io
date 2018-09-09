@@ -322,7 +322,7 @@ margin-bottom: 20px;}
     margin-bottom: 30px; }
 
 .about-me-info .span-title {
-  width: 70px;
+  width: 40px;
   float: left;
   display: block; }
 
@@ -362,11 +362,11 @@ margin-bottom: 20px;}
 /* First screen */
 /* content styles */
 .site-btn {
-  border: none;
+      overflow: hidden;
+    text-transform: uppercase;
   background: none;
   padding: 15px;
-  -webkit-border-radius: 25px;
-  border-radius: 25px;
+  border: 1px solid currentColor;
   min-width: 170px;
   text-align: center;
   display: inline-block;
@@ -398,6 +398,13 @@ margin-bottom: 20px;}
 .btn-theme-blue-tr {
   border: 3px solid;
   padding: 12px 15px; }
+
+
+
+.site-btn .btn-1 {
+  border: 0;
+}
+
 
 .section {
   padding: 60px 0; }
