@@ -420,8 +420,7 @@ margin-bottom: 20px;}
   padding: 50px 0 60px; }
 
 .section-title {
-    margin: 80px 0 60px 0;
-    max-width: 680px;
+    margin: 50px 0 60px 0;
 }
 
 .projects-wrapper {
@@ -873,3 +872,42 @@ height: 100px;
 
 
 /*# sourceMappingURL=maps/theme.css.map */
+.var-highlight {
+  color: #f1ff;
+}
+
+.string-highlight {
+  color: rgba(0, 0, 255, 0.8);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+#typewriter {
+  font-size: 1.2em; 
+  margin: 0;
+  font-family: "Courier New";
+  background-color: #fff;
+  border-color: white;
+}
+#typewriter:after {
+  content: "|";
+  -webkit-animation: blink 500ms linear infinite alternate;
+          animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
