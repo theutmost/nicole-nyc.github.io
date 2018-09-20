@@ -119,8 +119,8 @@ img {
 .header.active {
   padding:18px 0;
   background: #fff;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 1px 0 rgba(255,0,0, 0.0); }
+  -webkit-box-shadow: 0 2px 20px 0 rgba(0, 255, 255, 0.2);
+  box-shadow: 0 2px 40px 0 rgba(0,0,255, 0.1); }
 
 .header.active .logo {
   position: relative;
@@ -367,7 +367,7 @@ margin-bottom: 20px;}
   background: none;
   padding: 15px;
   border: 1px solid currentColor;
-  min-width: 170px;
+  min-width: 00px;
   text-align: center;
   display: inline-block;
   vertical-align: top;
@@ -375,14 +375,15 @@ margin-bottom: 20px;}
   transition: all 0.3s ease; }
 
 .btn-theme-white {
-  background: #fff; }
+  background: #fff;
+  border: 0; }
 
 .btn-theme-white:hover {
   -webkit-box-shadow: 0 10px 20px 0 rgba(37, 37, 37, 0.2);
   box-shadow: 0 10px 20px 0 rgba(37, 37, 37, 0.2); }
 
 .btn-theme-white-tr {
-  border: 3px solid #fff;
+  border: 0 solid #fff;
   padding: 12px 15px; }
 
 .btn-theme-white-tr:hover {
